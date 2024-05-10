@@ -1,10 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
 body {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Luckiest Guy', sans-serif;
   margin: 0;
   background: #eee;
   height: auto;
+}
+
+.bangers-regular {
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h1 {
