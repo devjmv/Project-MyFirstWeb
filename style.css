@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
 
 body {
   font-family: 'Roboto Condensed', sans-serif;
   margin: 0;
-  background: #eee;
+  background: #ffffff;
   height: auto;
 }
 
@@ -48,10 +48,13 @@ main {
   padding-left: 1rem;
 }
 
-#landing-text h2 {
-  color: #888;
+#landing-text h1 {
+  color: #ff0000f3;
 }
 
+#landing-text h2 {
+  color: #454545;
+}
 #landing-image {
   background: url(assets/img/Image20240510102136.png);
   background-position: center;
@@ -64,13 +67,14 @@ main {
 
 .btn {
   padding: 0.5rem 2rem;
-  border: 1px #ccc solid;
+  border: 1px rgb(25,55,90) solid;
   display: inline-block;
   margin: 2rem 0 0;
   border-radius: 50px;
   text-decoration: none;
-  color: #333;
+  color: #ffb86c;
   transition: background 500ms ease;
+  background-color: rgb(50,110,180)
 }
 
 .btn:hover {
@@ -80,8 +84,8 @@ main {
 #header {
   padding: 1.5rem;
   text-align: center;
-  background: #333;
-  color: #fff;
+  background: #ff8418;
+  color: #c0d5ff;
 }
 
 #header h2 {
@@ -101,7 +105,7 @@ footer {
   text-align: center;
   padding: 2rem 1rem;
   margin: auto;
-  color: #333;
+  color: #ff951c;
 }
 
 footer h3 {
@@ -130,4 +134,20 @@ footer h3 {
   .btn {
     padding: 1rem 3rem;
   }
+}
+
+#bul {
+  color: rgb(0, 180, 30);
+}
+#cha {
+  color: rgb(240,110,60);
+}
+#squ {
+color: rgb(50,150,220);
+}
+#pik {
+  color: rgb(150,150,0);
+}
+#eev {
+  color: rgb(200,60,200);
 }
